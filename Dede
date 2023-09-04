@@ -1,0 +1,15 @@
+meme_dict = {
+            "CRINGE": "Rezil" ,
+            "LOL": "Komik bir şeye verilen cevap." ,
+            "EZ": "Kolaydı." ,
+            "SA": "Selamu aleykum."
+            
+            }
+            
+word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("dede bunu ben bile bilmiyorum.")
